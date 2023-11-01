@@ -1,0 +1,52 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.13",
+    "heartbeatAt": "2023-11-01T01:09:20.986172",
+    "startedAt": "2023-11-01T01:08:48.589398",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "TryWandb.ipynb",
+    "codePathLocal": "TryWandb.ipynb",
+    "git": {
+        "remote": "https://github.com/shovonjamali/amlfall23.git",
+        "commit": "be6dbc3959f370a61d6ffa4fa48dd449ffc9be2c"
+    },
+    "email": "shovonjamali@gmail.com",
+    "root": "G:/ML_Practice/amlfall23",
+    "host": "Jobaidul",
+    "username": "user",
+    "executable": "G:\\ML_Practice\\amlfall23\\env\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2808.0,
+        "min": 0.0,
+        "max": 2808.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2808.0,
+            "min": 0.0,
+            "max": 2808.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 621.0068321228027,
+            "used": 72.29273223876953
+        }
+    },
+    "gpu": "GeForce GTX 1050 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce GTX 1050 Ti",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 15.883865356445312
+    }
+}

@@ -1,0 +1,41 @@
+2023-11-01 02:08:48,595 INFO    MainThread:26756 [wandb_setup.py:_flush():76] Current SDK version is 0.15.12
+2023-11-01 02:08:48,595 INFO    MainThread:26756 [wandb_setup.py:_flush():76] Configure stats pid to 26756
+2023-11-01 02:08:48,595 INFO    MainThread:26756 [wandb_setup.py:_flush():76] Loading settings from C:\Users\user\.config\wandb\settings
+2023-11-01 02:08:48,595 INFO    MainThread:26756 [wandb_setup.py:_flush():76] Loading settings from G:\ML_Practice\amlfall23\L04_L05\wandb\settings
+2023-11-01 02:08:48,595 INFO    MainThread:26756 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***', 'run_name': 'fashion-mnist-small', 'notebook_name': 'TryWandb.ipynb'}
+2023-11-01 02:08:48,596 INFO    MainThread:26756 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-01 02:08:48,596 INFO    MainThread:26756 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-11-01 02:08:48,596 INFO    MainThread:26756 [wandb_init.py:_log_setup():528] Logging user logs to G:\ML_Practice\amlfall23\L04_L05\wandb\run-20231101_020848-x7hm01t7\logs\debug.log
+2023-11-01 02:08:48,596 INFO    MainThread:26756 [wandb_init.py:_log_setup():529] Logging internal logs to G:\ML_Practice\amlfall23\L04_L05\wandb\run-20231101_020848-x7hm01t7\logs\debug-internal.log
+2023-11-01 02:08:48,597 INFO    MainThread:26756 [wandb_init.py:init():568] calling init triggers
+2023-11-01 02:08:48,597 INFO    MainThread:26756 [wandb_init.py:init():575] wandb.init called with sweep_config: {}
+config: {}
+2023-11-01 02:08:48,597 INFO    MainThread:26756 [wandb_init.py:init():618] starting backend
+2023-11-01 02:08:48,597 INFO    MainThread:26756 [wandb_init.py:init():622] setting up manager
+2023-11-01 02:08:48,603 INFO    MainThread:26756 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2023-11-01 02:08:48,604 INFO    MainThread:26756 [wandb_init.py:init():628] backend started and connected
+2023-11-01 02:08:48,624 INFO    MainThread:26756 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2023-11-01 02:08:48,632 INFO    MainThread:26756 [wandb_init.py:init():720] updated telemetry
+2023-11-01 02:08:48,682 INFO    MainThread:26756 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2023-11-01 02:08:49,524 INFO    MainThread:26756 [wandb_run.py:_on_init():2220] communicating current version
+2023-11-01 02:09:19,786 INFO    MainThread:26756 [wandb_init.py:init():804] starting run threads in backend
+2023-11-01 02:09:21,178 INFO    MainThread:26756 [wandb_run.py:_console_start():2199] atexit reg
+2023-11-01 02:09:21,178 INFO    MainThread:26756 [wandb_run.py:_redirect():2054] redirect: wrap_raw
+2023-11-01 02:09:21,179 INFO    MainThread:26756 [wandb_run.py:_redirect():2119] Wrapping output streams.
+2023-11-01 02:09:21,179 INFO    MainThread:26756 [wandb_run.py:_redirect():2144] Redirects installed.
+2023-11-01 02:09:21,180 INFO    MainThread:26756 [wandb_init.py:init():845] run started, returning control to user process
+2023-11-01 02:17:46,598 WARNING MsgRouterThr:26756 [router.py:_handle_msg_rcv():114] No listener found for msg with uuid 1be090405488422b8130937340a0d6e9 (control {
+  req_resp: true
+  local: true
+  relay_id: "cc7110ec8e95495685f3d2a64e8023a4"
+}
+uuid: "1be090405488422b8130937340a0d6e9"
+response {
+  log_artifact_response {
+    artifact_id: "QXJ0aWZhY3Q6NjI0MDQ2MzU0"
+  }
+}
+)
+2023-11-01 10:58:08,141 WARNING MsgRouterThr:26756 [router.py:message_loop():77] message_loop has been closed
+2023-11-01 10:58:08,143 WARNING MsgRouterThr:26756 [router.py:message_loop():77] message_loop has been closed
+2023-11-01 10:58:08,143 WARNING MsgRouterThr:26756 [router.py:message_loop():77] message_loop has been closed
